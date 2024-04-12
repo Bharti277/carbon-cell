@@ -1,0 +1,48 @@
+.sidenav {
+  background-color: rgba(33, 32, 32, 0.811);
+  color: #fff;
+  height: 100vh;
+  padding: 1rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b0ef33;
+}
+.name__first {
+  font-size: 18px;
+  font-weight: 800;
+}
+.search {
+  margin-top: 2rem;
+}
+.search input {
+  padding: 0.2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 22px;
+  background-color: rgba(90, 88, 88, 0.811);
+  color: #fff;
+}
+.side__navbar {
+  margin-top: 2rem;
+}
+.home {
+  font-size: 22px;
+  padding: 1rem;
+}
+.bottom__navbar {
+  margin-top: 2rem;
+}
+.home:hover {
+  color: #b0ef33;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}

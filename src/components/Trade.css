@@ -1,0 +1,82 @@
+.trade {
+  width: 100%;
+  margin: 0 1rem;
+  color: #fff;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.warm__welcome {
+  color: #b0ef33;
+}
+.trading__name {
+  color: green;
+}
+.trade .text p {
+  font-size: 20px;
+  font-weight: 800;
+}
+.start__trading button {
+  background-color: rgb(81, 218, 2);
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
+.overview {
+  display: flex;
+}
+.wallet__balance .card {
+  background-color: rgba(33, 32, 32, 0.811);
+  padding: 1.2rem;
+  border-radius: 0.6rem;
+}
+.wallet__balance .card .number {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+.text__center {
+  text-align: center;
+}
+.cards__assets {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.asset__card {
+  background-color: rgba(33, 32, 32, 0.811);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  width: 215px;
+  height: 150px;
+}
+.asset__card .price {
+  display: flex;
+  justify-content: space-between;
+}
+.trade__btn {
+  display: flex;
+  justify-content: space-between;
+}
+.tr__btn {
+  background-color: rgb(81, 218, 2);
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
+.market__overview__chart {
+  background-color: rgba(32, 31, 31, 0.811);
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.chart__align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
